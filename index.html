@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Geometry</title>
 </head>
 <body>
-    <p>Let's start code.</p>
+    <header>
+
+    </header>
+    <main>
+        <!-- container -->
+        <div class="flex flex-col lg:flex-row">
+            <!-- shape container -->
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Triangle card  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                  <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title justify-center">Triangle</h2>
+                    <p class="text-center text-xl">Area(A) = 0.5 * b * h </p>
+                    <p><input type="num" placeholder="base" class="w-24 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" class="w-24 bg-base-200 rounded-md px-2" placeholder="hight"><span class="ml-2">cm</span></p>
+                    <p>Area(A) = 0 cm<sup>2</sup> </p>
+                    <button class="btn btn-primary">Calculate</button>
+                  </div>
+                </div>
+                <!-- Rectangle -->
+                
+                <!-- Ellipse -->
+                
+            </div>
+            <!-- area container -->
+            <div class="">
+                <div class="text-2xl">Area Calculator</div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
