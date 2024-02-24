@@ -67,11 +67,12 @@ function calculateEllipseArea(){
         return
     }
     const area = 3.1416 * minorValue * majorValue;
+    const areaTwoDecimal = area.toFixed(2);
     const triArea = document.getElementById("ellipseArea");
-    triArea.innerText = area;
+    triArea.innerText = areaTwoDecimal;
 
     //add to calculation entry
-    addToCalculationEntry('Ellipse',area);
+    addToCalculationEntry('Ellipse',areaTwoDecimal);
 }
 
 //function reuseable
