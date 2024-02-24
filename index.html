@@ -17,64 +17,67 @@
             <!-- shape container -->
             <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Triangle card  -->
-                <div class="card w-96 bg-base-100 shadow-xl pt-4">
+                <div class="card w-72 bg-base-100 shadow-xl pt-4">
                   <figure><img src="images/triangle.png" alt="Shoes" /></figure>
                   <div class="card-body">
                     <h2 class="card-title justify-center">Triangle</h2>
                     <p class="text-center text-xl">Area(A) = 0.5 * b * h </p>
-                    <p><input type="num" id="t-base" placeholder="base" class="w-24 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="t-height" class="w-24 bg-base-200 rounded-md px-2" placeholder="height"><span class="ml-2">cm</span></p>
+                    <p><input type="num" id="t-base" placeholder="base" class="w-20 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="t-height" class="w-20 bg-base-200 rounded-md px-2" placeholder="height"><span class="ml-2">cm</span></p>
                     <p>Area(A) = <span  id = "triangleArea">0</span> cm<sup>2</sup> </p>
                     <button onclick="calculateTriangleArea()" class="btn btn-primary">Calculate</button>
                   </div>
                 </div>
                 <!-- Rectangle -->
-                <div class="card w-96 bg-base-100 shadow-xl pt-4">
+                <div class="card w-72 bg-base-100 shadow-xl pt-4">
                   <figure><img src="images/rectangle.png" alt="Shoes" /></figure>
                   <div class="card-body">
                     <h2 class="card-title justify-center">Rectangle</h2>
                     <p class="text-center text-xl">Area(A) = w * l </p>
-                    <p><input type="num" id="r-width" placeholder="width" class="w-24 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="r-lenght" class="w-24 bg-base-200 rounded-md px-2" placeholder="height"><span class="ml-2">cm</span></p>
+                    <p><input type="num" id="r-width" placeholder="width" class="w-20 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="r-lenght" class="w-20 bg-base-200 rounded-md px-2" placeholder="height"><span class="ml-2">cm</span></p>
                     <p>Area(A) = <span  id = "rectangleArea">0</span> cm<sup>2</sup> </p>
                     <button onclick="calculateRectangleArea()" class="btn btn-primary">Calculate</button>
                   </div>
                 </div>
                 <!-- Ellipse -->
-                <div class="card w-96 bg-base-100 shadow-xl pt-4">
+                <div class="card w-72 bg-base-100 shadow-xl pt-4">
                   <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
                   <div class="card-body">
                     <h2 class="card-title justify-center">Ellipse</h2>
                     <p class="text-center text-xl">Area(A) = 3.1416 * a * b </p>
-                    <p><input type="num" id="minor" placeholder="a" class="w-24 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="major" class="w-24 bg-base-200 rounded-md px-2" placeholder="b"><span class="ml-2">cm</span></p>
+                    <p><input type="num" id="minor" placeholder="a" class="w-20 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="major" class="w-20 bg-base-200 rounded-md px-2" placeholder="b"><span class="ml-2">cm</span></p>
                     <p>Area(A) = <span  id = "ellipseArea">0</span> cm<sup>2</sup> </p>
                     <button onclick="calculateEllipseArea()" class="btn btn-primary">Calculate</button>
                   </div>
                 </div>
                 <!-- parallelogram -->
-                <div class="card w-96 bg-base-100 shadow-xl pt-4">
+                <div class="card w-72 bg-base-100 shadow-xl pt-4">
                   <figure><img src="images/parallelogram.png" alt="Shoes" /></figure>
                   <div class="card-body">
                     <h2 class="card-title justify-center">Parallelogram</h2>
                     <p class="text-center text-xl">Area(A) = b * h </p>
-                    <p><input type="num" id="p-base" placeholder="base" class="w-24 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="p-height" class="w-24 bg-base-200 rounded-md px-2" placeholder="height"><span class="ml-2">cm</span></p>
+                    <p><input type="num" id="p-base" placeholder="base" class="w-20 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="p-height" class="w-20 bg-base-200 rounded-md px-2" placeholder="height"><span class="ml-2">cm</span></p>
                     <p>Area(A) = <span  id = "parallelogramArea">0</span> cm<sup>2</sup> </p>
                     <button onclick="calculateParallelogramArea()" class="btn btn-primary">Calculate</button>
                   </div>
                 </div>
                 <!-- Rhombus -->
-                <div class="card w-96 bg-base-100 shadow-xl pt-4">
+                <div class="card w-72 bg-base-100 shadow-xl pt-4">
                   <figure><img src="images/rhombus.png" alt="Shoes" /></figure>
                   <div class="card-body">
                     <h2 class="card-title justify-center">Rhombus</h2>
                     <p class="text-center text-xl">Area(A) = 0.5 * d1 * d2 </p>
-                    <p><input type="num" id="r-d1" placeholder="diagonal1" class="w-24 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="r-d2" class="w-24 bg-base-200 rounded-md px-2" placeholder="diagonal2"><span class="ml-2">cm</span></p>
+                    <p><input type="num" id="r-d1" placeholder="diagonal1" class="w-20 bg-base-200 rounded-md px-2"><span class="ml-2 mr-4">cm</span><input type="num" id="r-d2" class="w-20 bg-base-200 rounded-md px-2" placeholder="diagonal2"><span class="ml-2">cm</span></p>
                     <p>Area(A) = <span  id = "rhombusArea">0</span> cm<sup>2</sup> </p>
                     <button onclick="calculateRhombusArea()" class="btn btn-primary">Calculate</button>
                   </div>
                 </div>
             </div>
             <!-- area container -->
-            <div class="">
-                <div class="text-2xl">Area Calculator</div>
+            <div class="w-[400px] shadow-xl rounded-lg bg-slate-50 mx-2">
+                <div class="text-2xl  p-2 bg-orange-200  text-center">Area</div>
+                <div id="calculation-entry" class="p-4">
+                  
+                </div>
             </div>
         </div>
     </main>
